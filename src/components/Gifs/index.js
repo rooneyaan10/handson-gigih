@@ -35,7 +35,7 @@ export default function Gifs() {
         {data.map((dataList) => {
           return (
             <div key={dataList.id} className="col-md-4">
-              <img src={dataList.images.original.url} className="gif-display" />
+              <img src={dataList.images.original.url} className="gif-display" alt="gif"/>
             </div>
           );
         })}
